@@ -1,5 +1,5 @@
 '''
-последняя задачка с codewars
+последняя задачка с codewars (792 ms)
 https://www.codewars.com/kata/52742f58faf5485cae000b9a/solutions/python
 '''
 
@@ -58,13 +58,12 @@ def form_elem(elem, n):
     else:
         return emp
 
+print(
 
-print (
-
-format_duration(1)       ,   #  "1 second")
-format_duration(62)     ,   # "1 minute and 2 seconds")
+format_duration(1)        ,   #  "1 second")
+format_duration(62)       ,   # "1 minute and 2 seconds")
 format_duration(608400)   ,   #, "2 minutes")
-format_duration(3600) ,   #  "1 hour")
-format_duration(3662) ,   #1 hour, 1 minute and 2 seconds")
-sep = '\n'
-        )
+format_duration(3600)     ,   #  "1 hour")
+format_duration(3662)     ,   # 1 hour, 1 minute and 2 seconds")
+    
+sep = '\n' )
