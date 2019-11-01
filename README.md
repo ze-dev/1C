@@ -1,4 +1,4 @@
 # 1C
-business process automation
+business processes automation
 
 Разработка и решение задач из практики 1С-программирования на Python 3
