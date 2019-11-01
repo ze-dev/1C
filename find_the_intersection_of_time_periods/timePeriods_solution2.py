@@ -27,7 +27,7 @@ for i in range(1, len(ip)):
         cr = (mi,ma)
     else:
         fail = True
-        print('NO any crosses.')
+        print('NO any crossing.')
         break
 
 #---------можно использовать для проверки работоспособности ф-ий---------
