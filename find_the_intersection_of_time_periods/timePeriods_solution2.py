@@ -36,7 +36,7 @@ for i in range(1, len(ip)):
 ##ma = '20010101101011'     # в этом периоде 2 секунды
 
 if not fail:
-    print('GOT crosses!')
+    print('GOT crossing!')
     mi_s = datetime(*make_elem(mi))
     ma_s = datetime(*make_elem(ma))
     delta = ma_s - mi_s
