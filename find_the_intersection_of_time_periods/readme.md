@@ -5,7 +5,7 @@
 Если нет общего пересечения, то вывести сообщение "Нет пересечения".
 
 solution1 и 2:
-Решено на Python 3
+decided on Python 3 (console app)
 
 solution3:
-Python 3 vs PyQt5
+decided on Python 3 vs GUI on PyQt5 (windows app)
