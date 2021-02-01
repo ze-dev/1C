@@ -16,13 +16,13 @@ mtext = """// тут НАЧАЛЬНЫЕ каменты
 Упорядочить По Код // крайний камент
 """
 
-## непосредственный ввод  исходной многострочной строки из терминала
+## непосредственный ввод  исходной многострочной строки из терминала (поля ввода, файла)
 ## в боевом режиме
 ##mtext = "\n".join(iter(input, ""))
 
 ltext = mtext.split("\n")           
 mod_ltext = []
-print("-"*30)
+print("-"*80)
 for line in ltext:
     if line.lstrip().startswith("//"):
        mod_line = line
@@ -42,7 +42,8 @@ for lin in mod_ltext:
     print(lin)
 
 mod_mtext = "\n".join(iter(mod_ltext))
+
 ##sms = """"""
 ##s = """{mdl}"""
 ##for mod_line in mod_ltext:
-##    sms = sms + "\n" +  s.format(mdl=mod_line) - доработать
+##    sms = sms + "\n" +  s.format(mdl=mod_line) - доработать, не так как надо
